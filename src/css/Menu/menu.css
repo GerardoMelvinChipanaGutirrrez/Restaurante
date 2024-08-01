@@ -1,0 +1,67 @@
+.banner-restaurant{
+    height: 25rem;
+    width: 100vw;
+    box-shadow: 0px 12px 27px -8px var(--color-2);
+    img{
+        height: 25rem;
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+.contnt-menu{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+}
+article{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px var(--color-2);
+    width: 20rem;
+    height: 30rem;
+    display: grid;
+    justify-items: center;
+    align-content: space-between;
+    div{
+        .content-img-card{
+            border-radius: 15px 15px 0px 0px;
+            background-color: var(--color-3);
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            
+        }
+        .content-descrip-card{
+            display: grid;
+            justify-items: center;
+            grid-template-rows: 3rem 1fr;
+            padding: 10px;
+            gap: 2px;
+            h3{
+                color: var(--color-2);
+            }
+            p{
+                color: var(--color-3);
+            }
+        }
+    }
+    img{
+        width: 80%;
+        height: 250px;
+    }
+    
+        a{
+            width: 100%;
+            background-color: var(--color-3);
+            color: white;
+            text-decoration: none;
+            display: grid;
+            justify-items: center;
+            height: 2.5rem;
+            align-items: center;
+            border-radius: 0px 0px 15px 15px;
+        }
+        a:hover{
+            background-color: var(--color-2);
+        }
+}

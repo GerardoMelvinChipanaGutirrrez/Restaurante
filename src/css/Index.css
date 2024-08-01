@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+:root{  
+    --color-2:darkslategray;
+    --color-3:rgb(83, 134, 134);
+}
+body{
+    /* width: 100vw;
+    height: 100vh; */
+    overflow-x: hidden;
+
+}
+header{
+    width: 100vw;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 65%;
+    box-shadow: 0px -8px 40px var(--color-2);
+    nav{
+        display: flex;
+        gap:1rem;
+        height: 100%;
+        a{
+            text-decoration: none;
+            color: var(--color-2);
+        }
+        a:hover{
+
+            text-decoration: underline 2.5px var(--color-2);
+        }
+    }
+}
+footer{
+    width: 100vw;
+    background-color: var(--color-2);
+    height: 8rem;
+}
